@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 10em;
+  padding: 1em;
+}
+
+button{
+  padding: 1em;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+h1,h2{
+  margin: 0;
+}
+.container_button{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+.container_general{
+  width: 100%;
+  max-height: 40em;
+}
+
+.container_1{
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+header{
+  text-align: center;
+}
+
+.App{
+  width: 100%;
+  background-color: aqua;
+}
+
+footer{
+  text-align: center;
+}
+
+.container_1:hover{
+background-color: navy;
+}
+
+.container_button:hover{
+  background-color: navy;
+}
+
+button:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
